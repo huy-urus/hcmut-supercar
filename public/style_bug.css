@@ -1,0 +1,47 @@
+.content-detail {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#img-detail-left {
+    position: absolute;
+    width: 50%;
+    display: inline-block
+}
+
+.content-detail h1{
+    font-weight: bolder;
+}
+
+#infor-detail-left {
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 50%;
+    top: 20%;
+    text-align: right;
+    display: inline-block;
+}
+
+#img-detail-right {
+    position: absolute;
+    width: 50%;
+    display: inline-block;
+    right: 0;
+}
+
+#infor-detail-right {
+    position: absolute;
+    height: 60%;
+    width: 40%;
+    left: 5%;
+    top: 20%;
+    text-align: left;
+    display: inline-block;
+}
+
+.content-detail span {
+    font-size: 18px;
+    color: white;
+}
