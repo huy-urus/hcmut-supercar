@@ -41,7 +41,7 @@ app.get('/contact', function(req, res){
 app.post('/contact', urlencodedParser, function(req, res){
     var mailOptions = {
         from: 'admin_Supercar',
-        to: 'ngochuy.78py@gmail.com', //'61303805@hcmut.edu.vn',
+        to: '61303805@hcmut.edu.vn',
         subject: 'Comment in Supercar',
         text: req.body.name + '\n' + req.body.mail + '\n' + req.body.comments
     };
